@@ -1,3 +1,16 @@
 {
-  "blogs": []
+  "blogs": [
+    {
+      "title": "Eu conheci um cara andrógeno...",
+      "body": "Eu conheci um cara andrógino quando estava no colégio. Ele é um dos caras mais valentes que eu já conheci. Pink Bobby Jenkins. Ele era andrógino muito antes disso virar moda. Todo mundo tirava onda com ele. Aí um dia eu estava voltando pra casa da escola e uns caras me pegaram, me pegaram pra valer. Mas no meio da confusão, lá vem o Pink Bobby. Caramba! Pow pow, Pink Bobby deu uma surra naqueles caras. Eu perguntei por que ele me ajudou, já que eu não falava com ele... E ele disse que não se importava com essas coisas. Mas é porque eu nunca falei mal dele. E depois disso, ficamos amigos.",
+      "author": "mario",
+      "id": 1
+    },
+    {
+      "title": "Cadê minhas capivarinhas?",
+      "body": "A capivara pode atingir até 1,3 m de comprimento e 60 cm de altura, por isso é considerada o maior roedor da natureza. Além disso, são animais bem pesados: podem pesar de 30 kg a 80 kg.\n\nÉ um animal que apresenta o corpo compacto e coberto de pelos, geralmente marrom-escuros. A presença de rabo nesses animais é motivo de discussão. Alguns autores dizem que esses animais possuem um pequeno rabo, e outros dizem que eles não possuem rabo.",
+      "author": "yoshi",
+      "id": 2
+    }
+  ]
 }
