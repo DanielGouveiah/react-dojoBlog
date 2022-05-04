@@ -48,47 +48,69 @@
   color: #f1356d;
   margin-bottom: 8px;
 }
-
-.create form {
-  display: flex;
-  flex-flow: column nowrap;
-  font-weight: 500;
+.blog-preview a {
+  text-decoration: none;
 }
 
-.create label {
-  margin-top: 20px;
+/* blog details page */
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 4px;
+  margin-top: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
 }
 
-.create label {
-  padding: 8px 0px;
-  font-size: 1.3rem;
+.blog-details p {
+  margin-bottom: 24px;
 }
-
-.create input,
-textarea {
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
   padding: 8px;
   border-radius: 8px;
-  outline: none;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  font-size: 1.2rem;
-  color: #121212;
-}
-
-.create button {
-  padding: 10px 30px;
-  outline-style: none;
-  border: none;
-  background-color: #f1356d;
-  color: #f2f2f2;
-  font-size: 1.3rem;
-  border-radius: 8px;
-  font-weight: 500;
-  display: block;
-  margin-top: 20px;
-  align-self: flex-end;
   cursor: pointer;
 }
 
-.create button:hover {
-  background-color: #b1326a;
+/* create new blog form */
+
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create input:focus,
+.create textarea:focus,
+.create select:focus {
+  outline-color: #f1356d;
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
 }
